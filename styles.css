@@ -128,4 +128,68 @@ body {
   .btn:hover {
     opacity: 0.9;
   }
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+        top: 20px;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 16px;
+    }
+
+    .form-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn.submit {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .btn.reset {
+        background-color: #dc3545;
+        color: #fff;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.5rem;
+        top: 10px;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
   
