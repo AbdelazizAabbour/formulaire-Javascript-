@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Particles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="title">Aabbour Aziz & <span>Azzila-code </span></div>
+    <div class="particles"></div>
+            <div class="form-container">
+              <h2>Enregistrer un nouvel apprenant</h2>
+              <form action="#" method="POST">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="identifiant">Votre identifiant</label>
+                    <input type="text" id="identifiant" placeholder="Votre identifiant">
+                  </div>
+                  <div class="form-group">
+                    <label for="prenom">Votre prénom</label>
+                    <input type="text" id="prenom" placeholder="Votre prénom">
+                  </div>
+                  <div class="form-group">
+                    <label for="nom">Votre nom</label>
+                    <input type="text" id="nom" placeholder="Votre nom">
+                  </div>
+                </div>
+          
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email@gmail.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="date">Date de naissance</label>
+                    <input type="date" id="date">
+                  </div>
+                  <div class="form-group">
+                    <label>Genre</label>
+                    <div class="gender-options">
+                      <label><input type="radio" name="gender" value="homme"> Homme</label>
+                      <label><input type="radio" name="gender" value="femme"> Femme</label>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="adresse">Saisir votre adresse</label>
+                    <input type="text" id="adresse" placeholder="Saisir votre adresse">
+                  </div>
+                  <div class="form-group">
+                    <label for="gouvernorat">Gouvernorat</label>
+                    <select id="gouvernorat">
+                      <option value="">Liste déroulante basée sur la table gouvernorat</option>
+                      <option value="DIGITAL AI">DIGITAL AI</option>
+                      <option value="DIGITAL INFRA">DIGITAL INFRA</option>
+                      <option value="ANTILIGEN ART">ANTILIGEN ART</option>
+                      <option value="SERVICE SURE PARL">SERVICE SURE PARL</option>            
+                      <option value="LACTE INDUSTRE">LACTE INDUSTRE</option>
+                      <option value="THR HOTILIE">THR HOTILIE</option>
+                    </select>
+                  </div>
+                </div>
+          
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" placeholder="Mot de passe">
+                  </div>
+                  <div class="form-group">
+                    <label for="confirm-password">Confirmer mot de passe</label>
+                    <input type="password" id="confirm-password" placeholder="Mot de passe">
+                  </div>
+                </div>
+          
+                <div class="form-actions">
+                  <button type="submit" class="btn submit">Envoyer</button>
+                  <button type="reset" class="btn reset">Effacer</button>
+                </div>
+              </form>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
