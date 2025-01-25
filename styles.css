@@ -130,6 +130,9 @@ body {
   }
 
 @media (max-width: 768px) {
+    body{
+        background-color: blue;
+    }
     .title {
         font-size: 2rem;
         top: 20px;
@@ -172,6 +175,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    body{
+        background-color: blue;
+    }
     .title {
         font-size: 1.5rem;
         top: 10px;
